@@ -1,0 +1,66 @@
+
+ @font-face {
+    font-family: "Akira Expanded";
+    src: url(../assets/fonts/Akira\ Expanded.otf);
+ }
+ * {
+margin: 0;
+padding: 0;
+}
+
+
+html{
+    /* reduz o padrão de fonte para 10 px(1rem= 10px) */
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem ;
+    font-family: "Akira Expanded";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style:none;
+    }
+/* ________________________________________________________________________________________________________________ */
+
+/* === header === */
+.header img {
+    border: 1px solid ;
+    gap: 40px;
+}
+.header{
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap:40px;
+    font-size: 14px;
+    border:1px solid red;    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+.hero h1{
+    text-align: center;
+    font-size: 7rem;
+    line-height: 100%;
+}
+
+.destaque{
+    color: red;
+
+}
+
+
